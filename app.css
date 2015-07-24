@@ -1,0 +1,10 @@
+div#inputDiv {
+    background-color: khaki;
+    width: 200px;
+    height: 200px;
+}
+div#otherDiv {
+    background-color: darkorange;
+    width: 100px;
+    height: 100px;
+}
