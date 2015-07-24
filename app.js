@@ -2,7 +2,7 @@
  * Created by ene on 24.07.2015.
  */
 
-addEventListener('DOMContentLoaded', function(evt, detail, sender){
+addEventListener('DOMContentLoaded', function(evt){
 
 	var allDivs = document.querySelectorAll('div')
 	for (i = 0; i != allDivs.length; i++) {
@@ -26,3 +26,10 @@ addEventListener('DOMContentLoaded', function(evt, detail, sender){
 	console.log('>> drag-elements', draggableElems)
 
 })
+
+function changeZ (){
+	if (document.querySelector('#inputDiv').style['zIndex'] == 1) {
+		document.querySelector('#inputDiv').style['zIndex'] = 0
+	}
+	else document.querySelector('#inputDiv').style['zIndex'] = 1
+}
